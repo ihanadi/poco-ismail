@@ -1,0 +1,40 @@
+body{
+    width: 850px;
+    font-family: 'Roboto Slab', serif;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    color: red;
+    background-color: lightgray;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+p.footer{
+    border-top: 1px solid black;
+    background-color: white;
+    padding-top: .5em;
+    margin-left: 0;
+    font-family: 'Inconsolata', monospace;
+}
+p em{
+    font-style: normal;
+    text-decoration: underline;
+}
+p.warning{
+    background-color: red;
+    color: white;
+    font-style: bold;
+    padding: .5em 1em;
+    border-radius: 5px;
+    text-shadow: 1px 1px 1px black;
+}
+p.warning::before{
+    content: "WARNING"
+}
+.div1{
+    height: 600px;
+    width: 1500px;
+    background: linear-gradient(to right, #642b73, #c6426e);
+}

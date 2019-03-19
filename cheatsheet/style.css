@@ -1,0 +1,47 @@
+#indexBody { 
+    text-align: center;
+    background-image: url("learn.jpg");
+}
+
+
+ul a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5em;
+    
+    color: black;
+}
+
+#htmlBody{
+    background-color: black;
+}
+#gitBody{
+    background-color: black;
+}
+#shellBody{
+    background-color: black;
+
+}
+h3{
+    text-transform: capitalize;
+    font-family: 'BioRhyme Expanded', serif;
+    color: rgba(0, 0, 0, 0.555);
+    font-size: 2em;
+    text-shadow: 0px 0px 20px white;
+  }
+pre{
+    /* text-transform: capitalize; */
+    font-family: 'VT323', monospace;
+    font-size: 1.7em;
+    color: chartreuse;
+    text-shadow:none;
+
+    }
+li{
+    text-transform: capitalize;
+    font-family: 'Kalam', cursive;
+    color: white;
+    text-shadow: .45em .35em 6.9px rgba(255, 255, 255, 0.582);
+    font-size: 1.7em; 
+
+}
+

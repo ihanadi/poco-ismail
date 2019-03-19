@@ -1,0 +1,11 @@
+
+ul.breadcrumb li {
+  display:  inline;
+}
+
+ul.breadcrumb li:before {
+  content: " > ";
+}
+ul.breadcrumb li:first-child::before{
+    content: " ";
+}

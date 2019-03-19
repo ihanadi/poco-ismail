@@ -1,18 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Document for git </title>
-    </head>
-    <body>
-        <h1>Commiting a file to chestsheet</h1>
-        <ul>
-            <li>First command 
-                <pre>git add {filename}</pre>
-            </li>
-            <li>Secound command
-                <pre>git commit -m"{message}"</pre>
-            </li>
-        </ul>
-    </body>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=BioRhyme+Expanded|Kalam|VT323" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>
+        version control
+    </title>
+
+</head>
+
+<h3>Commiting a file to repository</h3>
+
+<body id="gitBody">
+
+
+    <ul>
+
+        <li>first command: Initialize the local directory as a Git repository.</li>
+        <pre>git init</pre>
+
+        <li>second command: Add the files in your new local repository. This stages them for the first commit.</li>
+        <pre>git add "{file name}"</pre>
+
+        <li>third command: Commit the files that you've staged in your local repository.</li>
+        <pre>git commit -m "First commit"</pre>
+
+        <li>forth command: In the Command prompt, add the URL for the remote repository where your local repository will
+            be pushed.</li>
+        <pre>git remote add origin "remote repository URL"</pre>
+
+
+        <li>fifth command: Push the changes in your local repository to GitHub.</li>
+        <pre>git push origin master</pre>
+
+
+    </ul>
+</body>
+
+
 </html>
