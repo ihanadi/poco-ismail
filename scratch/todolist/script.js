@@ -1,6 +1,7 @@
 let list = document.getElementById('myList');
 let addBtn = document.getElementById('addBtn');
 let taskInput = document.getElementById('taskInput');
+let clearBtn = document.getElementById('myList');
 
 
 function addItem(text){
@@ -22,7 +23,7 @@ function addItem(text){
 
     // Add line through in Item
     item.addEventListener('click' , function(){
-        item.classList.toggle('cheched')
+        item.classList.toggle('checked')
     });
     list.appendChild(item);
     
@@ -47,6 +48,10 @@ function addItem(text){
         })
 
 
-        addItem('Hit the gym');
-        addItem('pay bills');
+
     });
+
+
+    function removeAll(){
+        document.getElementById("myList").innerHTML = "";
+    }
