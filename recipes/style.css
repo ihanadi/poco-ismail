@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(228, 228, 228);
+    font-family: 'Baloo Chettan', cursive;
+    margin: 0;
+    padding: 0;
+}
+h1.header-title{
+    text-align: center;
+    margin: 3em 0;
+}
+
+/***** *******/
+.what-this{
+    display: inline-block;
+    margin: 0 2em;
+}
+.what-this .full-img img{
+    float: left;
+    width: 49%;
+    border: .1em solid rgb(199, 118, 118);
+    border-radius: .2em;
+    box-shadow: .2em .2em .5em rgba(97, 69, 69);
+}
+.what-this .descrep {
+    float: right;
+    width: 49%;
+    text-align: center;
+}
+
+/***** *******/
+.inir{
+    display: inline-block;
+    margin:  2em;
+}
+.inir .ingred h2,
+.inir .direct h2{
+    text-align: center;
+}
+.inir .ingred{
+    float: left;
+    width: 49%;
+}
+.inir .direct {
+    float: right;
+    width: 49%;
+}
+
+/***** ********/ 
+.footer{
+    text-align: center;
+    margin: 3em 0
+
+}
+.footer h2{
+    margin: 0
+}
